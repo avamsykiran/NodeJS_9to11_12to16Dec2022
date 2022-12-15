@@ -24,9 +24,14 @@ const greetUser2 = (greetingProvider,userName) => `${greetingProvider()} ${userN
 const nextEmpIdGenerator = () => { let empId=0; return (() => ++empId) };
 const nextEmpId = nextEmpIdGenerator();
 
-export default function () {
+export default function (doSkip = false) {
     console.log("Functions demo");
     console.log("-------------------------------------------");
+
+    if(doSkip){
+        console.log("execution skipped")
+        return;
+    }
 
     console.log(greet());
     console.log(greetUser("Vamsy Kiran"));
