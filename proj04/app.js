@@ -1,5 +1,6 @@
 import funDemo from './functionsDemo.mjs';
 import oopsDemo from './oopsDemo.mjs';
+import arraysDemo from './arraysDemo.mjs';
 
 funDemo(true);
 
@@ -8,4 +9,6 @@ funDemo(true);
     console.log("Demonstrating IIFE");
 })();
 
-oopsDemo();
+oopsDemo(true);
+
+arraysDemo();
