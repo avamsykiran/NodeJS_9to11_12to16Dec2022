@@ -1,6 +1,7 @@
 import funDemo from './functionsDemo.mjs';
 import oopsDemo from './oopsDemo.mjs';
 import arraysDemo from './arraysDemo.mjs';
+import sld from './libStandardDemo.mjs';
 
 funDemo(true);
 
@@ -11,4 +12,6 @@ funDemo(true);
 
 oopsDemo(true);
 
-arraysDemo();
+arraysDemo(true);
+
+sld();

@@ -20,9 +20,8 @@ Objectives
     5.Using MongoDB with Node.js
     6.Building Web Applications with Node.js and Express
     7.HTTP with Node.js
-    8.Understanding OAuth with Node.js
-    9.Managing Files with Node.js
-    10.Async Patterns in Node.js
+    8.Managing Files with Node.js
+    9.Async Patterns in Node.js
 
 Lab Setup
 -------------------------------------------------------------------------
