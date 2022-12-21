@@ -65,3 +65,41 @@ Working with npm
 
     node_modules folder is the house for the downloaded packages.
 
+REST api on NodeJS
+------------------------------------------------------------------------------------------------
+    express             is a rest-api cosntruction library
+    body-parser         is a library used to parse JSON into javascript object and vice-versa.
+    cors                to enable cross origins
+
+    npm install express --save
+    npm install body-parser --save
+    npm install cors --save
+
+    npm install express body-parser cors --save
+
+    npm install    will re-execute the package download from packgae.json
+
+    an action method of a controller accepts req and resp objects:
+
+        req
+                params
+                body
+
+        resp
+                status
+                send
+
+    expres() is method that returns an http server object.
+
+    let server = express();
+
+        server.listen(POPT,() => {
+            //...........is executed on successful start of the server.
+        })
+
+        server.use(interceptor)
+        server.get(urlEndPoint,reqHandlerMethod)
+        server.post(urlEndPoint,reqHandlerMethod)
+        server.put(urlEndPoint,reqHandlerMethod)
+        server.delete(urlEndPoint,reqHandlerMethod)
+            ...etc
